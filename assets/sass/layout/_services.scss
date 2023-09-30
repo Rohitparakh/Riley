@@ -39,10 +39,10 @@
             }
         }
         &::before {
-            background-color: rgba(63, 131, 254,0.9);
+            background-color: rgba(202,156,98,0.9);
         }
         &::after {
-            background-color: rgba(63, 131, 254,0.7);
+            background-color: rgba(202,156,98,0.7);
         }
         a {
             color: $primary-color;
@@ -57,7 +57,7 @@
         width: 100px; 
         height: 100px;
         border-radius: 50%;
-        background-color: rgba(63, 131, 254,0.4);
+        background-color: rgba(202,156,98,0.4);
     }
     &::after {
         content: ''; 
@@ -68,7 +68,7 @@
         width: 100px; 
         height: 100px;
         border-radius: 50%;
-        background-color: rgba(63, 131, 254,0.3);
+        background-color: rgba(202,156,98,0.3);
         transition: $transition;
     }
     .icon-container {

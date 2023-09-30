@@ -126,7 +126,7 @@
 					top: 0; 
 					left: 0; 
 					z-index: -1;
-					box-shadow: 0 3px 1px #1ec5fa;
+					box-shadow: 0 3px 1px #004e54;
 					border-radius: 40px;
 					transition: 0.3s;
 				}
@@ -139,7 +139,7 @@
 					top: 0; 
 					left: 0; 
 					z-index: -1;
-					box-shadow: 0 3px 1px #1ec5fa;
+					box-shadow: 0 3px 1px #004e54;
 					border-radius: 40px;
 				}
 			}
@@ -227,7 +227,7 @@
 		}
 		&:after {
 			opacity: 0;
-			background: linear-gradient(to right, #005ce6 0%, #02ccff 100%);
+			background: linear-gradient(to right, #02525a 0%, #b28957 100%);
 		}
 	}
 	.pr-team-member-text {
