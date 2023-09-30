@@ -4619,3 +4619,14 @@ rs-layer.slider-btn {
   height: 20px;
   margin-bottom:0;
 }
+
+
+
+/* Custom CSS  */
+@media(max-width:767px){
+  #slider-24-slide-79-layer-13{
+    font-size: 18px;
+    padding: 15px;
+    margin-left:-100px;
+  }
+}
