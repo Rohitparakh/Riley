@@ -911,9 +911,11 @@ select:visited {
   .pr2-service-section .pr2-title-area .pr2-subtitle {
     color: #3f83fe; }
   .pr2-service-section .pr2-title-area h2 {
-    color: #ffffff; }
+    color: #ffffff; 
+  }
   .pr2-service-section .pr2-title-area p {
-    color: #ffffff; }
+    /* color: #ffffff;  */
+  }
 
 .pr2-service-content {
   margin-top: 30px; }
@@ -1196,11 +1198,13 @@ select:visited {
     .pr2-appoinment-section .pr2-title-area .pr2-subtitle {
       color: #3f83fe; }
     .pr2-appoinment-section .pr2-title-area h2 {
-      color: #ffffff; }
+      color: #ffffff;
+     }
     .pr2-appoinment-section .pr2-title-area .pr2-pera-txt {
       margin-top: 20px; }
     .pr2-appoinment-section .pr2-title-area p {
-      color: #ffffff; }
+      /* color: #ffffff;  */
+    }
   .pr2-appoinment-section .pr2-app-right {
     position: relative;
     height: 100%; }
@@ -1761,3 +1765,10 @@ select:visited {
       margin-top: 30px; } }
   .pr2-copyright p {
     color: #ffffff; }
+
+
+    .text-black{
+      color:#10151f !important
+    }
+
+    
