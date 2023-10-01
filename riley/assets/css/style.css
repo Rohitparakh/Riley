@@ -1774,12 +1774,17 @@ select:visited {
     
     @media(max-width:767px){
       #slider-24-slide-79-layer-5{
-        margin-top:-100px !important;
+        /* margin-top:-100px !important; */
+      }
+
+      #slider-24-slide-79-layer-13 a{
+        font-size: 20px !important;
+
       }
       #slider-24-slide-79-layer-13{
-        font-size: 18px !important;
-        padding: 15px !important;
-        margin-top:105px !important;
+        font-size: 30px !important;
+        padding: 20px !important;
+        /* margin-top:105px !important; */
         text-align: center;
         font-weight: 900 !important;
 
@@ -1787,6 +1792,11 @@ select:visited {
       #slider-24-slide-79-layer-11{
         font-size: 14px !important;
         line-height: 20px !important;
+      }
+
+      #rev_slider_24_1{
+        /* height:350px !important; */
+        /* padding-top:150px !important; */
       }
     }
 
