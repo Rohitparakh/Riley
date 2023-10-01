@@ -433,7 +433,7 @@ select:visited {
   transform: rotate(130deg);
 }
 .header-style-five .main-navigation-area {
-  padding-top: 15px;
+  /* padding-top: 15px; */
   display: inline-block;
 }
 .header-style-five .main-navigation-area li {

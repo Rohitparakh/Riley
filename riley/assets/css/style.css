@@ -405,7 +405,7 @@ select:visited {
     -ms-transform: rotate(130deg);
     transform: rotate(130deg); }
   .header-style-five .main-navigation-area {
-    padding-top: 15px;
+    /* padding-top: 15px; */
     display: inline-block; }
     .header-style-five .main-navigation-area li {
       display: inline-block;
