@@ -843,7 +843,11 @@ select:visited {
     -ms-flex-positive: 1;
     flex-grow: 1; }
   .header-syle-one .header-navigation-content .nav {
-    display: inherit; }
+    /* display: inherit;  */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
   .header-syle-one .header-navigation-content li {
     margin-left: 70px; }
     .header-syle-one .header-navigation-content li a {

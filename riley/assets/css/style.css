@@ -1803,3 +1803,7 @@ select:visited {
     .hue-rotate-180{
       filter: hue-rotate(180deg);
     }
+
+    .menu-navigation{
+      font-size:1.6rem;
+    }
