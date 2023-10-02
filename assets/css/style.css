@@ -3706,7 +3706,8 @@ rs-layer.slider-btn {
   background-color: #fff; }
 
 .pr-contact-wrap-section {
-  padding: 100px 0px;
+  /* padding: 100px 0px; */
+  padding-bottom: 50px;
   z-index: 1; }
 
 .cnt-map-bg {
@@ -3755,7 +3756,7 @@ rs-layer.slider-btn {
     color: #666666; }
 
 .contact-page-form-wrapper {
-  padding: 35px 0px 120px; }
+  padding: 35px 0px 35px; }
   .contact-page-form-wrapper input,
   .contact-page-form-wrapper textarea {
     width: 100%;
@@ -4633,4 +4634,8 @@ rs-layer.slider-btn {
     padding: 15px;
     margin-left:-100px;
   }
+}
+
+#contact-page-form{
+  padding-top:50px;
 }
