@@ -3382,7 +3382,8 @@ rs-layer.slider-btn {
     font-size: 22px;
     font-weight: 700;
     position: relative;
-    margin-bottom: 45px; }
+    margin-bottom: 45px; 
+  min-width: 240px;}
     .pr-widget-wrap .widget-title:after {
       left: 0px;
       content: '';
