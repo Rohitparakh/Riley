@@ -1819,3 +1819,89 @@ select:visited {
     .site-logo img{
       height:50px;
     }
+
+/*---------------------------------------------------- */
+/*Newslatter area*/
+/*----------------------------------------------------*/
+.pr-newslatter-section {
+  overflow: hidden;
+  padding: 50px 0px;
+  background-color: #715635; }
+  .pr-newslatter-section .pr-newslatter-img {
+    top: 0;
+    left: 90px;
+    opacity: .2; }
+
+.pr-newslatter-text {
+  max-width: 590px; }
+  .pr-newslatter-text p {
+    color: #fff;
+    font-size: 20px; }
+    .pr-newslatter-text p a {
+      text-decoration: underline; }
+
+.pr-newslatter-form {
+  width: 100%;
+  max-width: 440px; }
+  .pr-newslatter-form input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding-left: 30px;
+    border-radius: 30px;
+    background-color: #fff; }
+  .pr-newslatter-form button {
+    top: 0;
+    right: 0;
+    color: #fff;
+    border: none;
+    width: 145px;
+    height: 47px;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    border-radius: 30px;
+    font-family: "Poppins";
+    display: inline-block;
+    -webkit-transition: all 200ms linear 0ms;
+    -o-transition: all 200ms linear 0ms;
+    transition: all 200ms linear 0ms;
+    background-image: -webkit-gradient(linear, left top, right top, from(#02525a), to(#b28957));
+    background-image: -webkit-linear-gradient(left, #02525a 0%, #b28957 100%);
+    background-image: -o-linear-gradient(left, #02525a 0%, #b28957 100%);
+    background-image: linear-gradient(to right, #02525a 0%, #b28957 100%);
+    z-index: 1; }
+    .pr-newslatter-form button::after {
+      content: '';
+      width: 145px;
+      height: 47px;
+      background-image: -webkit-gradient(linear, right top, left top, from(#02525a), to(#b28957));
+      background-image: -webkit-linear-gradient(right, #02525a 0%, #b28957 100%);
+      background-image: -o-linear-gradient(right, #02525a 0%, #b28957 100%);
+      background-image: linear-gradient(to left, #02525a 0%, #b28957 100%);
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 40px;
+      -webkit-box-shadow: 0 3px 1px #004e54;
+      box-shadow: 0 3px 1px #004e54;
+      z-index: -1;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s; }
+    .pr-newslatter-form button::before {
+      content: '';
+      width: 145px;
+      height: 47px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 40px;
+      -webkit-box-shadow: 0 3px 1px #004e54;
+      box-shadow: 0 3px 1px #004e54;
+      z-index: -1;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s; }
+    .pr-newslatter-form button:hover::after {
+      opacity: 0; }
