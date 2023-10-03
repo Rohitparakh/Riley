@@ -1812,3 +1812,7 @@ select:visited {
       display: flex;
     align-items: center;
     }
+
+    .site-logo img{
+      height:50px;
+    }

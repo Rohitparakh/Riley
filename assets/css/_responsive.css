@@ -82,7 +82,8 @@
   .header-syle-one,
   .header-syle-one .header-navigation-content,
   .pry-main-header.header-syle-one.sticky-on {
-    background-color: #000; }
+    background-color: #000; 
+  height: 70px;}
   .header-syle-one .header-cta-content,
   .pr-service-section .pr-service-content .pr-service-icon {
     display: none; }
@@ -279,7 +280,9 @@
   .header-syle-one {
     padding: 12px 0px; }
   .mobile_menu_button {
-    top: -45px; }
+    /* top: -45px; */
+    top: -55px;
+   }
   .mobile_logo {
     top: 12px; }
   .pr-section-title h2 {

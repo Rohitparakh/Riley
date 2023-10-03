@@ -4307,7 +4307,8 @@ rs-layer.slider-btn {
   .header-syle-one,
   .header-syle-one .header-navigation-content,
   .pry-main-header.header-syle-one.sticky-on {
-    background-color: #000; }
+    background-color: #000;
+    height: 70px; }
   .header-syle-one .header-cta-content,
   .pr-service-section .pr-service-content .pr-service-icon {
     display: none; }
@@ -4514,7 +4515,11 @@ rs-layer.slider-btn {
   .header-syle-one {
     padding: 12px 0px; }
   .mobile_menu_button {
-    top: -45px; }
+    /* top: -45px;  */
+    top: -55px;
+
+
+  }
   .mobile_logo {
     top: 12px; }
   .pr-section-title h2 {
@@ -4638,4 +4643,17 @@ rs-layer.slider-btn {
 
 #contact-page-form{
   padding-top:50px;
+}
+
+.site-logo img,.brand-logo img, .mobile_logo img{
+  height:50px;
+}
+
+.fal.fa-bars{
+  /* margin-top: 30px; */
+}
+
+
+.header-navigation-area{
+  margin-top: -12px;
 }
