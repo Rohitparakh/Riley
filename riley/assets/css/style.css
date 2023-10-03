@@ -422,18 +422,21 @@ select:visited {
       border-radius: 30px;
       font-weight: 700;
       line-height: 48px;
-      color: #00525a;
       display: inline-block;
       font-family: "Poppins", sans-serif;
-      background-color: transparent;
-      border: 2px solid #ca9c62;
+      background-color: #ca9c62;
+        color: #ffffff;
+      border: 2px solid transparent;        
       text-transform: capitalize;
       -webkit-transition: all 0.3s ease-in;
       -o-transition: all 0.3s ease-in;
       transition: all 0.3s ease-in; }
       .header-style-five .header-cta-btn a.cta:hover {
-        background-color: #ca9c62;
-        color: #ffffff; }
+        background-color: transparent;
+      border: 2px solid #ca9c62;
+      color: #00525a;
+    
+    }
       @media (max-width: 575.98px) {
         .header-style-five .header-cta-btn a.cta {
           display: none; } }
