@@ -1218,7 +1218,7 @@ select:visited {
   right: 15px;
   top: -52px;
   z-index: 5;
-  color: #fff;
+  color: #004e54;
   display: none;
   cursor: pointer;
   font-size: 22px;
@@ -4307,7 +4307,7 @@ rs-layer.slider-btn {
   .header-syle-one,
   .header-syle-one .header-navigation-content,
   .pry-main-header.header-syle-one.sticky-on {
-    background-color: #000;
+    background-color: #fff;
     height: 70px; }
   .header-syle-one .header-cta-content,
   .pr-service-section .pr-service-content .pr-service-icon {
