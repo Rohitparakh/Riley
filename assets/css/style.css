@@ -1871,16 +1871,20 @@ rs-layer.slider-btn {
       -webkit-box-shadow: -0.558px 4.981px 1px 0px #01b5ff, inset 0px 3px 0px 0px rgba(3, 234, 255, 0);
       box-shadow: -0.558px 4.981px 1px 0px #01b5ff, inset 0px 3px 0px 0px rgba(3, 234, 255, 0); }
   .pr-service-item-inner:hover {
-    background-color: #0e0d0f; }
+    /* background-color: #0e0d0f;  */
+  }
     .pr-service-item-inner:hover .pr-service-item-text h3 {
-      color: #fff; }
+      /* color: #fff;  */
+    }
     .pr-service-item-inner:hover .pr-service-item-text p {
       opacity: 0;
-      visibility: hidden; }
+      visibility: hidden; 
+    }
     .pr-service-item-inner:hover .pr-service-item-text .pr-btn {
       opacity: 1;
-      bottom: 10px;
-      visibility: visible; }
+      top: 100px;
+      visibility: visible;
+     }
 
 .pr-service-list-section {
   padding: 100px 0px; }
