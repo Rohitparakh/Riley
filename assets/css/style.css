@@ -1149,7 +1149,7 @@ select:visited {
   position: fixed;
   width: 310px;
   overflow-y: scroll;
-  background-color: #000;
+  background-color: #fff;
   padding: 20px 35px 35px 35px;
   -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.19);
   box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.19);
@@ -1176,14 +1176,14 @@ select:visited {
     .mobile_menu_content .mobile-main-navigation .navbar-nav li a {
       padding: 0;
       width: 100%;
-      color: #fff;
+      color: #000;
       display: block;
       font-weight: 600;
       font-size: 14px;
       font-family: "Poppins";
       text-transform: uppercase;
       padding: 10px 30px 10px 0;
-      border-bottom: 1px solid rgba(245, 245, 245, 0.17); }
+      border-bottom: 1px solid rgba(0,0,0, 0.3); }
   .mobile_menu_content .m-brand-logo {
     width: 120px;
     margin: 50px auto; }
@@ -1874,13 +1874,14 @@ rs-layer.slider-btn {
       box-shadow: -0.558px 4.981px 1px 0px #01b5ff, inset 0px 3px 0px 0px rgba(3, 234, 255, 0); }
   .pr-service-item-inner:hover {
     /* background-color: #0e0d0f;  */
+    border: 1px solid #bd925c;
   }
     .pr-service-item-inner:hover .pr-service-item-text h3 {
       /* color: #fff;  */
     }
     .pr-service-item-inner:hover .pr-service-item-text p {
-      opacity: 0;
-      visibility: hidden; 
+      /* opacity: 0; */
+      /* visibility: hidden;  */
     }
     .pr-service-item-inner:hover .pr-service-item-text .pr-btn {
       opacity: 1;
@@ -3714,6 +3715,7 @@ rs-layer.slider-btn {
 
 .pr-contact-wrap-section {
   /* padding: 100px 0px; */
+  overflow:hidden;
   padding-bottom: 50px;
   z-index: 1; }
 
@@ -3727,7 +3729,8 @@ rs-layer.slider-btn {
   padding-top: 50px; }
 
 .pr-contact-img {
-  padding-left: 30px; }
+  /* padding-left: 30px; */
+ }
 
 .pr-contact-cta-item-inner {
   padding: 30px;
@@ -4088,13 +4091,13 @@ rs-layer.slider-btn {
 /*----------------------------------------------------*/
 .pr-footer-section {
   padding: 95px 0px 30px;
-  background-color: #715635; }
+  background-color: #ece8e8; }
 
 .pr-footer-content {
   padding-bottom: 65px; }
 
 .pr-footer-widget .widget-title {
-  color: #fff;
+  color: #000;
   font-size: 20px;
   font-weight: 600;
   position: relative;
@@ -4122,7 +4125,7 @@ rs-layer.slider-btn {
     position: relative;
     z-index: 10; }
   .pr-footer-widget .logo-widget p {
-    color: #ededed; }
+    color: #000; }
   .pr-footer-widget .logo-widget .pr-footer-social {
     margin-top: 35px; }
     .pr-footer-widget .logo-widget .pr-footer-social a {
@@ -4141,7 +4144,7 @@ rs-layer.slider-btn {
 .pr-footer-widget .address-widget {
   max-width: 245px; }
   .pr-footer-widget .address-widget li {
-    color: #fff;
+    color: #000;
     margin-bottom: 15px; }
     .pr-footer-widget .address-widget li i {
       float: left;
@@ -4157,7 +4160,7 @@ rs-layer.slider-btn {
   .pr-footer-widget .menu-widget li {
     margin-bottom: 12px; }
     .pr-footer-widget .menu-widget li a {
-      color: #fff;
+      color: #000;
       font-size: 14px;
       padding-left: 15px;
       position: relative; }
@@ -4207,9 +4210,9 @@ rs-layer.slider-btn {
     transition: 0.3s; }
 
 .pr-copyright-wrap {
-  color: #fff;
+  color: #000;
   padding: 15px 40px;
-  background-color: #715635; }
+  background-color: #ece8e8; }
 
 .pr-copyright-menu li {
   margin-left: 35px;
@@ -4664,4 +4667,13 @@ rs-layer.slider-btn {
 
 .header-navigation-area{
   margin-top: -12px;
+}
+
+.pr-about-content-wrap{
+  background: #ffffff;
+  padding:100px 50px;
+}
+
+#pr-newslatter{
+  display: none;
 }

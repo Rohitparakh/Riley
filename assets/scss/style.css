@@ -4270,7 +4270,7 @@ rs-layer.slider-btn:hover::after {
   z-index: 10;
 }
 .pr-footer-widget .logo-widget p {
-  color: #ededed;
+  color: #000;
 }
 .pr-footer-widget .logo-widget .pr-footer-social {
   margin-top: 35px;
