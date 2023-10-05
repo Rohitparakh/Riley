@@ -332,14 +332,16 @@ select:visited {
   -webkit-transition: all 200ms linear 0ms;
   -o-transition: all 200ms linear 0ms;
   transition: all 200ms linear 0ms;
-  background-image: -webkit-gradient(linear, left top, right top, from(#004e54), color-stop(50%, #af8655), to(#004e54));
-  background-image: -webkit-linear-gradient(left, #004e54 0%, #af8655 50%, #004e54);
-  background-image: -o-linear-gradient(left, #004e54 0%, #af8655 50%, #004e54);
-  background-image: linear-gradient(90deg, #004e54 0%, #af8655 50%, #004e54);
+  background:#af8655;
+  /* background-image: -webkit-gradient(linear, left top, right top, from(#004e54), color-stop(50%, #af8655), to(#004e54)); */
+  /* background-image: -webkit-linear-gradient(left, #004e54 0%, #af8655 50%, #004e54); */
+  /* background-image: -o-linear-gradient(left, #004e54 0%, #af8655 50%, #004e54); */
+  /* background-image: linear-gradient(90deg, #004e54 0%, #af8655 50%, #004e54); */
   -webkit-box-shadow: -0.558px 7.981px 8px 0px rgba(1, 181, 255, 0.27), inset 0px 3px 0px 0px rgba(3, 234, 255, 0.004);
   box-shadow: -0.558px 7.981px 8px 0px rgba(1, 181, 255, 0.27), inset 0px 3px 0px 0px rgba(3, 234, 255, 0.004); }
   .pr-btn a:hover {
-    background-position: 120%; }
+    background-position: 120%;
+  background:#004e54; }
 
 .pr-text-in_item2,
 .pr-text-in_item3 {
