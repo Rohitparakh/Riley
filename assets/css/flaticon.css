@@ -106,3 +106,6 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 .flaticon-left-quote:before {
     content: "\f11d";
 }
+.flaticon-food:before {
+    content: "\f131";
+}

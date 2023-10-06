@@ -875,7 +875,7 @@ select:visited {
       width: 100px;
       height: 100px;
       border-radius: 6px;
-      background-color: #f8e3c9;
+      background-color: #ca9c62;
       text-align: center;
       position: relative; }
       .pr2-process-lists .single-list .icon-left .icon-container i {
@@ -888,10 +888,10 @@ select:visited {
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#ca9c62), to(#ca9c62));
-        background-image: -webkit-linear-gradient(top, #ca9c62, #ca9c62);
-        background-image: -o-linear-gradient(top, #ca9c62, #ca9c62);
-        background-image: linear-gradient(to bottom, #ca9c62, #ca9c62);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+        background-image: -webkit-linear-gradient(top, #fff, #fff);
+        background-image: -o-linear-gradient(top, #fff, #fff);
+        background-image: linear-gradient(to bottom, #fff, #fff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
   .pr2-process-lists .single-list .txt-content h4 {
